@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f7;
+    color: #333;
+}
+
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 1.0),#39021e );
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding-top: 30px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #34495e;
+}
+
+
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:#72123f29;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #39021e;
+}
+
+.info-card, .extracurricular-list, .achievement-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 12px;
+    
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+}
+
+
+#progress {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #16030c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #39021e;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c2148;
+}
